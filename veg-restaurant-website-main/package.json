@@ -1,0 +1,26 @@
+{
+  "name": "veg-restaurant-website",
+  "version": "1.0.0",
+  "description": "A vegetarian restaurant website built with Node.js, Express, and various CSS libraries, featuring a reservation system with Nodemailer.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazystuffxyz/veg-restaurant-website.git"
+  },
+  "authors": "Shayaan Hooda, Kunal Shetwal, Aidan Reed, James Huang & Pranav Sachdeva",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.48",
+    "nodemailer": "^6.7.2"
+  }
+}
